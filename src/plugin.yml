@@ -1,0 +1,42 @@
+name: MineplexRanks
+main: com.seamusdean.MineplexRanks.Main
+version: 1.0
+author: seamusdean
+
+commands:
+  mineplexranks:
+    description: Display information on the MineplexRanks Plugin
+  owner:
+    description: Display the user and message with the Owner rank.
+  lt:
+    description: Display the user and message with the LT rank.
+  dev:
+    description: Display the user and message with the Dev rank.
+  jrdev:
+    description: Display the user and message with the Jr.Dev rank.
+  admin:
+    description: Display the user and message with the Admin rank.
+  srmod:
+    description: Display the user and message with the Sr.Mod rank.
+  mod:
+    description: Display the user and message with the Mod rank.
+  trainee:
+    description: Display the user and message with the Trainee rank.
+  maplead:
+    description: Display the user and message with the MapLead rank.
+  builder:
+    description: Display the user and message with the Builder rank.
+  media:
+    description: Display the user and message with the Media rank.
+  youtube:
+    description: Display the user and message with the YouTube rank.
+  twitch:
+    description: Display the user and message with the Twitch rank.
+  legend:
+    description: Display the user and message with the Legend rank.
+  hero:
+    description: Display the user and message with the Hero rank.
+  ultra:
+    description: Display the user and message with the Ultra rank.
+  default:
+    description: Display the user and message with the default rank.

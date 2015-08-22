@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MineplexRanks:jar">
+    <output-path>$PROJECT_DIR$/../../../Minecraft Server/plugins</output-path>
+    <root id="archive" name="MineplexRanks.jar">
+      <element id="module-output" name="MineplexRanks" />
+    </root>
+  </artifact>
+</component>
