@@ -36,7 +36,7 @@ public class Admin implements CommandExecutor {
             {
                 try
                 {
-                    Bukkit.broadcastMessage(Main.getLevelColor(Integer.parseInt(args[1])) + ChatColor.RED + ChatColor.BOLD + " ADMIN " + ChatColor.YELLOW + args[0] + " " + ChatColor.WHITE + StringUtils.join(args, " ", 2, args.length));
+                    Bukkit.broadcastMessage(Main.getLevelColor(Integer.parseInt(args[1])) + ChatColor.RED + ChatColor.BOLD + " ADMIN " + ChatColor.YELLOW + args[0] + " " + ChatColor.RED + StringUtils.join(args, " ", 2, args.length));
                 }
                 catch (NumberFormatException e)
                 {
