@@ -31,6 +31,7 @@ public class Main extends JavaPlugin {
         getCommand("admin").setExecutor(new ADMIN());
         getCommand("srmod").setExecutor(new SR MOD());
         getCommand("mod").setExecutor(new MOD());
+        getCommand("jrmod").setExecutor(new JR MOD());
         getCommand("helper").setExecutor(new HELPER());
         getCommand("maplead").setExecutor(new MapLead());
         getCommand("builder").setExecutor(new BUILDER());
