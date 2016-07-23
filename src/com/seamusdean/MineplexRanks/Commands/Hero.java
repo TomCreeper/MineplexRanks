@@ -36,7 +36,7 @@ public class Hero implements CommandExecutor {
             {
                 try
                 {
-                    Bukkit.broadcastMessage(Main.getLevelColor(Integer.parseInt(args[1])) + ChatColor.LIGHT_PURPLE + ChatColor.BOLD + " HERO " + ChatColor.YELLOW + args[0] + " " + ChatColor.WHITE + StringUtils.join(args, " ", 2, args.length));
+                    Bukkit.broadcastMessage(Main.getLevelColor(Integer.parseInt(args[1])) + ChatColor.AQUA + ChatColor.BOLD + " lEGEND " + ChatColor.YELLOW + args[0] + " " + ChatColor.AQUA + StringUtils.join(args, " ", 2, args.length));
                 }
                 catch (NumberFormatException e)
                 {
