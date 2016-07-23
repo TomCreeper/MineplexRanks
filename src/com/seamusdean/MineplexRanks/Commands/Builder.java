@@ -36,7 +36,7 @@ public class Builder implements CommandExecutor {
             {
                 try
                 {
-                    Bukkit.broadcastMessage(Main.getLevelColor(Integer.parseInt(args[1])) + ChatColor.BLUE + ChatColor.BOLD + " BUILDER " + ChatColor.YELLOW + args[0] + " " + ChatColor.WHITE + StringUtils.join(args, " ", 2, args.length));
+                    Bukkit.broadcastMessage(Main.getLevelColor(Integer.parseInt(args[1])) + ChatColor.DARK_GREEN + ChatColor.BOLD + " BUILDER " + ChatColor.YELLOW + args[0] + " " + ChatColor.DARK_GREEN + StringUtils.join(args, " ", 2, args.length));
                 }
                 catch (NumberFormatException e)
                 {
