@@ -25,22 +25,21 @@ public class Main extends JavaPlugin {
     public void onEnable()
     {
         getCommand("mineplexranks").setExecutor(new MineplexRanks());
-        getCommand("owner").setExecutor(new Owner());
-        getCommand("lt").setExecutor(new LT());
-        getCommand("dev").setExecutor(new Dev());
+        getCommand("owner").setExecutor(new OWNER());
+        getCommand("dev").setExecutor(new DEV());
         getCommand("jrdev").setExecutor(new JrDev());
-        getCommand("admin").setExecutor(new Admin());
-        getCommand("srmod").setExecutor(new SrMod());
-        getCommand("mod").setExecutor(new Mod());
-        getCommand("trainee").setExecutor(new Trainee());
+        getCommand("admin").setExecutor(new ADMIN());
+        getCommand("srmod").setExecutor(new SR MOD());
+        getCommand("mod").setExecutor(new MOD());
+        getCommand("helper").setExecutor(new HELPER());
         getCommand("maplead").setExecutor(new MapLead());
-        getCommand("builder").setExecutor(new Builder());
+        getCommand("builder").setExecutor(new BUILDER());
         getCommand("media").setExecutor(new Media());
-        getCommand("youtube").setExecutor(new YouTube());
-        getCommand("twitch").setExecutor(new Twitch());
-        getCommand("legend").setExecutor(new Legend());
-        getCommand("hero").setExecutor(new Hero());
-        getCommand("ultra").setExecutor(new Ultra());
+        getCommand("youtube").setExecutor(new YOUTUBE());
+        getCommand("twitch").setExecutor(new TWTICH());
+        getCommand("ulimate").setExecutor(new ULIMATE());
+        getCommand("legend").setExecutor(new LEGEND());
+        getCommand("vip").setExecutor(new VIP());
         getCommand("default").setExecutor(new Default());
     }
 
